@@ -18,7 +18,7 @@ $message .= "Message: " . $HTTP_POST_VARS['message'] . "<br>";
 
 $headers .= "From: Lease One Contact Form <website@lease-one.com>\r\n";
 
-$success = mail("david@lease-one.com", "Prospective Client", $message , $headers);
+$success = mail("ranny@respmech.com", "Prospective Client", $message , $headers);
 if ($success){ 
 	echo "
 		<script language='JavaScript' type='text/JavaScript'>alert('Thank you for your request.  Lease One Systems will contact you shortly.')</script>
